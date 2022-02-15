@@ -7,16 +7,22 @@ $main-color:#fdd135;
 
 *, *::before, *::after {
 	box-sizing: border-box;
+}
 
 .btn-primary {
     background-color: #fdd135;
     border-color: #fdd135;
+        &:hover {
+         background-color: #af9021;
+        }
+}
 
 /*Welcome*/
 
 .welcome {
     background-size: cover;
 }
+
 .navbar-logo {
     color: #fdd135;
 }
