@@ -12,24 +12,28 @@
     <link rel="stylesheet" href="sass/style.scss">
 </head>
 <body>
-    <section class="welcome py-5">
+    <section class="card text-white welcome py-5">
         <nav class="navbar">
             <div class="container">
                 <div class="navbar-logo">
                     <a href="#" class="nav-link">Golden</a>
                 </div>
-                <ul class="list-inline">
-                    <li class="list-inline-item"><a href="#" class="nav-link text-uppercase">home</a></li>
-                    <li class="list-inline-item"><a href="#" class="nav-link text-uppercase">services</a></li>
-                    <li class="list-inline-item"><a href="#" class="nav-link text-uppercase">portfolio</a></li>
-                    <li class="list-inline-item"><a href="#" class="nav-link text-uppercase">contact</a></li>
-                </ul>
+                <div class="list-inline">
+                    <ul>
+                        <li class="list-inline-item"><a href="#" class="nav-link text-uppercase">home</a></li>
+                        <li class="list-inline-item"><a href="#" class="nav-link text-uppercase">services</a></li>
+                        <li class="list-inline-item"><a href="#" class="nav-link text-uppercase">portfolio</a></li>
+                        <li class="list-inline-item"><a href="#" class="nav-link text-uppercase">contact</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
-        <div class="container text-center">
-            <h3>Welcome to Our Studio!</h3>
-            <h1 class="text-uppercase">It's nice to meet you</h1>
-            <a class="btn btn-primary btn-lg text-uppercase">Tell me more</a> 
+        <div class="container">
+            <div class="welcome-text text-center">
+                <h3>Welcome to Our Studio!</h3>
+                <h1 class="text-uppercase">It's nice to meet you</h1>
+                <a class="btn btn-primary btn-lg text-uppercase">Tell me more</a>
+            </div>
         </div>
 </section>
 <section class="Services text-center py-5">
@@ -62,7 +66,7 @@
                     <i class="fas fa-lock"></i>
                 </div>
                 <div>
-                     <h3>Web Security</h3>
+                    <h3>Web Security</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dictum augue in tincidunt aliquet. Sed lacinia ut orci at rhoncus. Nulla quis lorem varius, varius nisi ac, ullamcorper purus. Fusce in imperdiet lacus, vitae iaculis nibh. Ut at tincidunt dui.</p>
                 </div>
             </div>
@@ -73,54 +77,69 @@
     <div class="container">
         <h2 class="text-uppercase text-center">our portfolio</h2>
         <small><p class="text-center"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></small>
-        <div class="row py-5 ">
-            <div class="card-deck mb-5 col-md-4 text-center"  >
-                <img class="card-img-top " src="">
-                <div class="card-img-ov">
-                  <h5 class="card-title">Ebony & Ivory</h5>
-                  <small>Branding</small>
+
+        <div class="row py-5">
+            <div class="col-4">
+                <div class="card">
+                    <img class="item" src="https://i.postimg.cc/nrthTfF1/Item-1.jpg" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <h4>Ebony & Ivory</h4>
+                        <small>Branding</small>
+                    </div>
                 </div>
             </div>
-            <div class="card-deck mb-5 col-md-4 text-center"  >
-                <img class="card-img-top " src="">
-                <div class="card-img-ov">
-                  <h5 class="card-title">Smart Stationary</h5>
-                  <small>Print design</small>
+            <div class="col-4">
+                <div class="card">
+                    <img class="item" src="https://i.postimg.cc/T3yvyHG2/Item-2.jpg" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <h4>Smart Stationary</h4>
+                        <small>Print design</small>
+                    </div>
                 </div>
             </div>
-            <div class="card-deck mb-5 col-md-4 text-center" >
-                <img class="card-img-top " src="">
-                <div class="card-img-ov">
-                  <h5 class="card-title">Clever Poster</h5>
-                  <small>Print design</small>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="card-deck mb-5 col-md-4 text-center"  >
-                <img class="card-img-top " src="">
-                <div class="card-img-ov">
-                  <h5 class="card-title">Vinyl Record</h5>
-                  <small>Product Mock-up</small>
-                </div>
-            </div>
-            <div class="card-deck mb-5 col-md-4 text-center"  >
-                <img class="card-img-top " src="">
-                <div class="card-img-ov">
-                  <h5 class="card-title">Treehouse Template</h5>
-                  <small>Web design</small>
-                </div>
-            </div>
-            <div class="card-deck mb-5 col-md-4 text-center" >
-                <img class="card-img-top " src="">
-                <div class="card-img-ov">
-                  <h5 class="card-title">Burned Logo</h5>
-                  <small>Branding</small>
+            <div class="col-4">
+                <div class="card">
+                    <img class="item" src="https://i.postimg.cc/8kw2ZVzP/Item-3.jpg" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <h4>Clever Poster</h4>
+                        <small>Print design</small>
+                    </div>
                 </div>
             </div>
         </div>
-</div>
+
+        <div class="row py-5">
+            <div class="col-4">
+                <div class="card">
+                    <img class="item" src="https://i.postimg.cc/yNXQWFJY/Item-4.jpg" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <h4>Vinyl Record</h4>
+                        <small>Product Mock-up</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <img class="item" src="https://i.postimg.cc/LsRvdnyd/Item-5.jpg" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <h4>Treehouse Template</h4>
+                        <small>Web design</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <img class="item" src="https://i.postimg.cc/dVRm9JJ5/Item-6.jpg" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <h4>Burned Logo</h4>
+                        <small>Branding</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
+
 <section class="footer">
     <footer class="pt-3">
         <div class="container">
@@ -128,17 +147,15 @@
                 <div class="col-md-4">
                     <p>&#169; Copyright 2022 FreebiesXpress.com</p>
                 </div>
-                <div class="col-md-4 d-flex justify-content-center">
-                    <i class="fab fa-twitter icon-footer px-1"></i> 
-                    <i class="fab fa-facebook icon-footer px-1"></i>
-                    <i class="fab fa-product-hunt icon-footer px-1"></i>
-                    <i class="fab fa-google-plus-g icon-footer px-1"></i>
+                <div class="social-media col-md-4 d-flex justify-content-center">
+                    <i class="fab fa-twitter icon-footer"></i> 
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-google-plus-square"></i>
                 </div>
             </div>    
         </div>
     </footer>
-</section>
-
-    
+</section>  
 </body>
 </html>
