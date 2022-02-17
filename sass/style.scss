@@ -1,7 +1,6 @@
 /* Variables */
 
 $main-color:#fdd135;
-$shadow: #e2e2e2;
 
 $font-two: 'Lobster', cursive;
 
@@ -100,7 +99,7 @@ small {
 /*Portfolio*/
 
 .portfolio {
-    background-color: $shadow
+    background-color: #e2e2e2;
 }
 
 .item {
@@ -117,6 +116,9 @@ small {
 
 .social-media {
     text-align: center;
+    a {
+        font-size: 0px; 
+    }
     i {
         font-size: 30px;
         background: black;
