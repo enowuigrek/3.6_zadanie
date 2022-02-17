@@ -80,13 +80,13 @@ small {
     border-color: $main-color;
     padding: 20px 40px;
     margin-top: 30px;
-        &:hover {
-            color: $main-color;
-            background-color: white;
-            border-color: white;
-            transition: $transition;
+    &:hover {
+        color: $main-color;
+        background-color: white;
+        border-color: white;
+        transition: $transition;
 
-        }
+    }
 }
 
 /*Services*/
@@ -107,12 +107,16 @@ small {
     height: 250px;
     object-fit: cover;
     transition: $transition;
-        &:hover {
-            filter: grayscale(100%) brightness(50%);
-            transition: $transition;
-        }
+    &:hover {
+        filter: grayscale(100%) brightness(50%);
+        transition: $transition;
+    }
 }
 /*Footer*/
+
+.footer p {
+    margin: 0;
+}
 
 .social-media {
     text-align: center;
@@ -128,11 +132,11 @@ small {
         color: white;
         border-radius: 50%;
         margin: 5px;
-            &:hover {
-                background-color: $main-color;
-                border-radius: 50%;
-            }
-    }
+        &:hover {
+            background-color: $main-color;
+            border-radius: 50%;
+        }
+}
 }
 
 /*media*/
@@ -147,12 +151,20 @@ small {
         font-size: 30px;
      }
 
+     ul {
+         padding: 5px;
+     }
 
      .nav-link {
-        font-size: 12px;
+        font-size: 13px;
+        padding: 0px;
      }
 
      .logo {
         font-size: 28px;
      }
+
+     .footer p {
+        margin: 4px;
+    }
 }
